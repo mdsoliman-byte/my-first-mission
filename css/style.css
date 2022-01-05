@@ -32,7 +32,6 @@
   margin-bottom: 20px;
 }
 .header-section-left {
-  /* width: 50%; */
   margin-left: 5%;
   margin-top: 5%;
 }
@@ -41,9 +40,7 @@
   font-size: 30px;
   padding: 20px;
 }
-/* .header-section-right {
-  width: 50%;
-} */
+
 .header-section-right img {
   width: 70%;
 }
@@ -82,13 +79,11 @@
 }
 .body-section-two-lift {
   margin-left: 5%;
-  /* width: 50%; */
 }
 .body-section-two-lift img {
   width: 60%;
 }
 .body-section-two-right {
-  /* width: 50%; */
   margin-left: -10%;
 }
 .body-section-two-right h1 {
@@ -98,3 +93,15 @@
   margin-top: 30px;
 }
 /* Body Section two End */
+/* Footer Start */
+footer {
+  background-color: rgb(37, 32, 32);
+  height: 100px;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+footer h5 {
+  padding: 20px;
+}
+/* Footer End */
