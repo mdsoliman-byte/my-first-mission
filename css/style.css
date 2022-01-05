@@ -4,12 +4,18 @@
   font-family: "Roboto", sans-serif;
 }
 /* Header Section start */
-.btn {
+#btn {
   padding: 10px 25px;
   background-color: orange;
+  color: white;
   border: none;
+  font-weight: 900;
   border-radius: 5px;
   cursor: pointer;
+}
+#btn:hover {
+  background-color: violet;
+  color: white;
 }
 .mission-color {
   color: orange;
@@ -18,10 +24,7 @@
   display: flex;
   padding: 30px;
 }
-/* .common-p {
-  margin-top: 20px;
-  margin-bottom: 10px;
-} */
+
 .header-section p {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -51,7 +54,8 @@
 }
 .column {
   padding: 20px;
-  box-shadow: 10px 10px 40px gray;
+
+  color: rgb(43, 33, 33);
   border-radius: 30px;
   margin-left: 5%;
   margin-right: 5%;
@@ -67,3 +71,34 @@
   margin: 10px;
 }
 /* Body Section One End */
+/* Body Section two Start */
+.body-section-two {
+  background-image: url(../pictures/shape-1.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+.body-section-two-lift {
+  margin-left: 5%;
+  width: 50%;
+}
+.body-section-two-lift img {
+  width: 60%;
+}
+.body-section-two-right {
+  width: 50%;
+  margin-left: -10%;
+}
+.body-section-two-right h1 {
+  font-size: 40px;
+}
+/* .body-section-two-right p {
+  margin-top: 30px;
+}
+.body-section-two-right .btn {
+  margin-top: 30px;
+} */
+.comon-margin {
+  margin-top: 30px;
+}
+/* Body Section two End */
