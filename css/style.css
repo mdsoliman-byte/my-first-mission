@@ -14,17 +14,20 @@
 .mission-color {
   color: orange;
 }
-
-.header-section {
+#flexible {
   display: flex;
+  padding: 30px;
 }
+/* .common-p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+} */
 .header-section p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .header-section-left {
   width: 50%;
-  padding: 30px;
   margin-left: 5%;
   margin-top: 5%;
 }
@@ -40,3 +43,27 @@
   width: 70%;
 }
 /* Header Section End */
+/* body Section One Start */
+.body-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.column {
+  padding: 20px;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+.column img {
+  width: 60%;
+}
+.column h1 {
+  margin: 10px;
+}
+.column p {
+  margin: 10px;
+}
+/* Body Section One End */
