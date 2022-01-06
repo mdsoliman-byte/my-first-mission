@@ -93,6 +93,21 @@
   margin-top: 30px;
 }
 /* Body Section two End */
+/* Body Section Three Start */
+.body-section-three {
+  background-image: url(/pictures/shape-1.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+.body-section-three-left {
+  margin-left: 5%;
+}
+.body-section-three-right img {
+  width: 60%;
+  margin-left: 100px;
+}
+/* Body Section Three End */
 /* Footer Start */
 footer {
   background-color: rgb(37, 32, 32);
