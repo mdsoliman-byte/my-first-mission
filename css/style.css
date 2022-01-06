@@ -42,6 +42,8 @@
 }
 
 .header-section-right img {
+  margin-left: 50px;
+  margin-top: 30px;
   width: 70%;
 }
 /* Header Section End */
