@@ -99,7 +99,7 @@
 /* Body Section two End */
 /* Body Section Three Start */
 .body-section-three {
-  background-image: url(/pictures/shape-1.png);
+  background-image: url(../pictures/shape-1.png);
   background-position: right;
   background-repeat: no-repeat;
   background-size: 200px;
