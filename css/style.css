@@ -37,10 +37,11 @@
 }
 .header-title {
   border-left: 5px solid orange;
-  font-size: 30px;
-  padding: 20px;
 }
-
+#h-title {
+  font-size: 40px;
+  margin-left: 10px;
+}
 .header-section-right img {
   margin-left: 50px;
   margin-top: 30px;
